@@ -1,0 +1,162 @@
+body {
+  background-color: #e6efe3;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.07em;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* FORCE font on all text elements */
+p, h2, h3, li, a {
+  font-family: 'Quicksand', sans-serif;
+}
+
+#wrapper {
+  width: 100%;
+  margin: auto;
+  background-color: white;
+}
+
+/* HEADER */
+header {
+  background-color: #355e3b;
+  color: white;
+  padding: 10px 15px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: -10px;
+}
+
+.logo {
+  height: 176px;
+  width: auto;
+}
+
+.site-text h1 {
+  margin: 0;
+  font-size: 3em;
+  font-family: 'Righteous', sans-serif;   /* FORCE fun font */
+  letter-spacing: 1.5px;
+  color: #f3e7c3;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.tagline {
+  margin: -8px 0 0 0;
+  font-size: 1em;
+}
+
+/* NAV */
+nav {
+  background-color: #c2b280;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+nav li {
+  border-right: none;
+}
+
+nav li {
+  border-right: 1px solid white;
+}
+
+nav li {
+  border-right: 1px solid white;
+}
+
+nav li:first-child {
+  border-left: 1px solid white;
+}
+
+nav a {
+  display: block;
+  padding: 12px 22px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+nav a:hover {
+  background-color: #a89a6a;
+  color: white;
+}
+
+/* MAIN */
+main {
+  padding: 20px;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.main-content,
+.side-content {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+
+.main-img {
+  width: 50%;
+  height: auto;
+  margin-top: 15px;
+  border: 2px solid #355e3b;
+}
+
+.side-img {
+  width: 50%;
+  height: auto;
+  margin-top: 10px;
+  border: 2px solid #355e3b;
+}
+
+/* FOOTER */
+footer {
+  background-color: #355e3b;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+.copyright {
+  font-size: 0.85em;
+  margin-top: 5px;
+  color: #dcdcdc;
+}
+
+footer p {
+  margin: 5px 0;
+}
